@@ -11,7 +11,7 @@ export default function BrandIcon() {
     <Button className="" type="link" href="/">
       <p className="text-theme-blue text-4xl font-medium ">
         GMT
-        <span className="text-[#EAAE37]">solution</span>
+        <span className="text-[#EAAE37]">innovation</span>
       </p>
     </Button>
   );
