@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="w-1/3 ml-16 sm:ml-0 mt-0">
             <h1 className="text-lg text-theme-blue pt-4 pb-2">Social</h1>
             <Button
-              href="https://www.instagram.com/racmathafidz/"
+              href="https://www.instagram.com/ra"
               type="link"
               target="_blank"
               className="flex text-lg text-gray-400 font-light hover:underline"
@@ -38,7 +38,7 @@ export default function Footer() {
               Instagram
             </Button>
             <Button
-              href="https://www.linkedin.com/in/racmat-hafidz-89982a156/"
+              href="https://www.linkedin.com/in/racmat-hafidz-89982/"
               type="link"
               target="_blank"
               className="flex text-lg text-gray-400 font-light hover:underline"
@@ -47,7 +47,7 @@ export default function Footer() {
               LinkedIn
             </Button>
             <Button
-              href="https://github.com/racmathafidz"
+              href="https://github.com/racmatha"
               type="link"
               target="_blank"
               className="flex text-lg text-gray-400 font-light hover:underline"
@@ -64,7 +64,7 @@ export default function Footer() {
               Made with &#x2764; by&nbsp;
             </p>
             <Button
-              href="https://github.com/racmathafidz"
+              href="https://github.com/racmathz"
               type="link"
               target="_blank"
               className="text-lg text-[#EAAE37] font-light"
