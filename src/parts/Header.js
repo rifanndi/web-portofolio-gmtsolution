@@ -78,11 +78,11 @@ export default function Header() {
         </li>
         <li>
           <Button
-            className="font-medium text-lg mx-auto ml-3 px-6 py-2 bg-[#EAAE37] text-white rounded-full border-2 border-[#EAAE37] hover:bg-[#DAA037] active:bg-[#C8902D] transition duration-200"
+            href="https://wa.me/6289519403079" // Ganti dengan nomor WhatsApp kamu
             type="link"
-            href="/discuss-project"
+            className="flex bg-yellow-300 text-blue-800 text-xl lg:text-2xl xl:text-xl tracking-wider items-center justify-center w-56 lg:w-96 lg:h-24 xl:w-56 h-20 p-5 border-2 border-dark-theme-purple shadow-xl rounded-full mt-6 sm:mt-0 sm:ml-4 lg:ml-0 xl:ml-12 transform transition duration-600 hover:scale-105"
           >
-            Discuss Project
+            Lets Discuss!
           </Button>
         </li>
       </ul>
