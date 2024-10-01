@@ -29,7 +29,7 @@ export default function Footer() {
           <div className="w-1/3 ml-16 sm:ml-0 mt-0">
             <h1 className="text-lg text-theme-blue pt-4 pb-2">Social</h1>
             <Button
-              href="https://www.instagram.com/ra"
+              href="https://www.instagram.com/gmtinnovation_id"
               type="link"
               target="_blank"
               className="flex text-lg text-gray-400 font-light hover:underline"
