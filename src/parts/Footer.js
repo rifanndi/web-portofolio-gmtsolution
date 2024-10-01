@@ -38,7 +38,7 @@ export default function Footer() {
               Instagram
             </Button>
             <Button
-              href="https://www.linkedin.com/company/gmtinnovation/"
+                href="https://www.linkedin.com/company/gmtinnovation/
               type="link"
               target="_blank"
               className="flex text-lg text-gray-400 font-light hover:underline"
