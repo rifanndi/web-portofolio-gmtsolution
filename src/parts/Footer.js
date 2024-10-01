@@ -46,15 +46,6 @@ export default function Footer() {
             >
               LinkedIn
             </Button>
-            <Button
-              href="https://github.com/racmatha"
-              type="link"
-              target="_blank"
-              className="flex text-lg text-gray-400 font-light hover:underline"
-              isExternal
-            >
-              Github
-            </Button>
           </div>
         </div>
         <div className="flex-col text-center mt-7">
@@ -64,7 +55,8 @@ export default function Footer() {
               Made with &#x2764; by&nbsp;
             </p>
             <Button
-              href="https://github.com/racmathz"
+              href="https://github.com/company/gmtinnovation
+"
               type="link"
               target="_blank"
               className="text-lg text-[#EAAE37] font-light"
