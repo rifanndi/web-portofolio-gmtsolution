@@ -24,7 +24,7 @@ export default function Header() {
         <BrandIcon />
 
         <button
-          className="block text-[#2E3F3C] lg:hidden focus:outline-none"
+          className="block text-black lg:hidden focus:outline-none" // Set color to black
           onClick={() => setIsCollapse(!isCollapse)}
         >
           <svg
@@ -52,24 +52,25 @@ export default function Header() {
         </button>
       </div>
 
-      <ul className="hidden text-[#2E3F3C] tracking-widest items-center lg:flex flex-row mt-0">
+      <ul className="hidden text-black tracking-widest items-center lg:flex flex-row mt-0">
+        {" "}
+        {/* Set text to black */}
         <li>
           <Button
             className={`${
               path === "/" ? "active-link" : ""
-            } font-medium text-lg px-5 no-underline hover:underline  text-green-900  `}
+            } font-medium text-lg px-5 no-underline hover:underline text-[#F1A40E]`}
             type="link"
             href="/"
           >
             Home
           </Button>
         </li>
-
         <li className="py-2 lg:py-0">
           <Button
             className={`${
               path === "/project" ? "active-link" : ""
-            } font-medium text-lg px-5 no-underline hover:underline  text-green-900`}
+            } font-medium text-lg px-5 no-underline hover:underline text-[#F1A40E]`}
             type="link"
             href="/project"
           >
@@ -78,9 +79,9 @@ export default function Header() {
         </li>
         <li>
           <Button
-            href="https://wa.me/6289519403079" // Ganti dengan nomor WhatsApp kamu
+            href="https://wa.me/6289519403079"
             type="link"
-            className="flex text-blue-800 text-xl lg:text-2xl xl:text-xl tracking-wider items-center justify-center w-56 lg:w-80 lg:h-14 xl:w-16 h-10 p-5 border-2 border-dark-theme-purple shadow-xl rounded-full mt-6 sm:mt-0 sm:ml-4 lg:ml-0 xl:ml-12 transform transition duration-600 hover:scale-105"
+            className="flex text-white bg-[#F1A40E] text-xl lg:text-xl xl:text-lg tracking-wide items-center justify-center w-40 h-10 lg:w-32 lg:h-10 rounded-full shadow-lg border-2 border-[#F1A40E] transition duration-300 hover:bg-yellow-600 hover:shadow-xl transform hover:scale-105"
           >
             contact me
           </Button>
@@ -97,13 +98,14 @@ export default function Header() {
         leaveTo="opacity-0"
       >
         <div className="transition duration-300 ease-in data-[closed]:opacity-0">
-          {/* <Fade> */}
-          <ul className="z-50 flex flex-col text-[#2E3F3C] tracking-widest my-6 absolute bg-white w-full border-b-2 border-gray-300 lg:hidden">
+          <ul className="z-50 flex flex-col text-black tracking-widest my-6 absolute bg-white w-full border-b-2 border-gray-300 lg:hidden">
+            {" "}
+            {/* Set text to black */}
             <li className="py-2 bg-white">
               <Button
                 className={`${
                   path === "/" ? "active-link" : ""
-                } font-medium px-10 no-underline hover:underline   text-black-900`}
+                } font-medium px-10 no-underline hover:underline text-[#F1A40E]`}
                 type="link"
                 href="/"
               >
@@ -114,7 +116,7 @@ export default function Header() {
               <Button
                 className={`${
                   path === "/team" ? "active-link" : ""
-                } font-medium px-10 no-underline hover:underline`}
+                } font-medium px-10 no-underline hover:underline text-[#F1A40E]`}
                 type="link"
                 href="/team"
               >
@@ -125,7 +127,7 @@ export default function Header() {
               <Button
                 className={`${
                   path === "/project" ? "active-link" : ""
-                } font-medium px-10 no-underline hover:underline   text-black-900`}
+                } font-medium px-10 no-underline hover:underline text-[#F1A40E]`}
                 type="link"
                 href="/project"
               >
@@ -134,15 +136,14 @@ export default function Header() {
             </li>
             <li className="mx-auto my-9 bg-white">
               <Button
-                className="font-bold mx-auto px-5 py-2 bg-[#EAAE37] text-white rounded-full border-2 border-[#EAAE37] hover:bg-[#DAA037] transition duration-200"
+                href="https://wa.me/6289519403079"
                 type="link"
-                href="/discuss-project"
+                className="flex text-white bg-[#F1A40E] text-xl lg:text-xl xl:text-lg tracking-wide items-center justify-center w-40 h-10 lg:w-32 lg:h-10 rounded-full shadow-lg border-2 border-[#F1A40E] transition duration-300 hover:bg-yellow-600 hover:shadow-xl transform hover:scale-105"
               >
                 contact me
               </Button>
             </li>
           </ul>
-          {/* </Fade> */}
         </div>
       </Transition>
     </header>

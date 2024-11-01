@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.e66b2450.css",
-    "main.js": "/static/js/main.bdc93424.js",
+    "main.css": "/static/css/main.77f57b4f.css",
+    "main.js": "/static/js/main.c05cb486.js",
     "static/js/453.f845e572.chunk.js": "/static/js/453.f845e572.chunk.js",
-    "static/media/Recruiting.png": "/static/media/Recruiting.faeebb5ecbceddc61777.png",
-    "static/media/Aura.png": "/static/media/Aura.e5ad93496c2e85e83e83.png",
-    "static/media/Freelance.png": "/static/media/Freelance.89112b918bcff02d3210.png",
-    "static/media/Surtido.png": "/static/media/Surtido.da4817557ad520882376.png",
-    "static/media/Stream.png": "/static/media/Stream.5bb25fd37b8e22b8e28a.png",
     "static/media/NotFound.png": "/static/media/NotFound.67759b4097c5294d1ab9.png",
     "static/media/team.png": "/static/media/team.917072ad0c0d596e2c70.png",
-    "static/media/ManagementApp.png": "/static/media/ManagementApp.22b48222454fada5584c.png",
+    "static/media/Aura.png": "/static/media/Aura.6878e4b31ddf8cc43882.png",
+    "static/media/Recruiting.png": "/static/media/Recruiting.f3c564f92de583688ce5.png",
+    "static/media/ManagementApp.png": "/static/media/ManagementApp.d947c8c5fd9f04beff57.png",
+    "static/media/Stream.png": "/static/media/Stream.4949dd6e5f4352116536.png",
+    "static/media/Surtido.png": "/static/media/Surtido.8eb55008d375bb07a9ef.png",
     "static/media/portfolioHero.png": "/static/media/portfolioHero.bd16fbc2ddbc062780ac.png",
+    "static/media/Freelance.png": "/static/media/Freelance.d488eb3618f85fefcb87.png",
     "static/media/BuildWebsite.png": "/static/media/BuildWebsite.2d15641dcb298d3ebdbc.png",
     "static/media/HRD.jpg": "/static/media/HRD.a068b40c1c2e7a731969.jpg",
     "static/media/Sasha.jpg": "/static/media/Sasha.d03a2982978ba6c1ad59.jpg",
@@ -36,12 +36,12 @@
     "static/media/CEO.jpg": "/static/media/CEO.1348dc1626e3c3dd6e1e.jpg",
     "static/media/Mobile.png": "/static/media/Mobile.3895db1ec1859459fd4e.png",
     "index.html": "/index.html",
-    "main.e66b2450.css.map": "/static/css/main.e66b2450.css.map",
-    "main.bdc93424.js.map": "/static/js/main.bdc93424.js.map",
+    "main.77f57b4f.css.map": "/static/css/main.77f57b4f.css.map",
+    "main.c05cb486.js.map": "/static/js/main.c05cb486.js.map",
     "453.f845e572.chunk.js.map": "/static/js/453.f845e572.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e66b2450.css",
-    "static/js/main.bdc93424.js"
+    "static/css/main.77f57b4f.css",
+    "static/js/main.c05cb486.js"
   ]
 }

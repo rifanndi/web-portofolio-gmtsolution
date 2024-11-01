@@ -18,13 +18,17 @@ export default function Discuss() {
               Have an awesome project in mind?
             </h1>
             <Fade direction="up" triggerOnce delay={500}>
-              <Button
-                href="https://wa.me/6289519403079" // Ganti dengan nomor WhatsApp kamu
-                type="link"
-                className="flex  bg-yellow-300 text-blue-800 text-xl lg:text-2xl xl:text-xl tracking-wider items-center justify-center w-56 lg:w-96 lg:h-14 xl:w-16 h-10 p-5 border-2 border-dark-theme-purple shadow-xl rounded-full mt-6 sm:mt-0 sm:ml-4 lg:ml-0 xl:ml-12 transform transition duration-600 hover:scale-105"
-              >
-                contact me
-              </Button>
+              <div className="mt-4 sm:mt-0 sm:ml-8">
+                {" "}
+                {/* Add margin to adjust button position */}
+                <Button
+                  href="https://wa.me/6289519403079"
+                  type="link"
+                  className="flex text-white bg-[#F1A40E] text-xl lg:text-xl xl:text-lg tracking-wide items-center justify-center w-40 h-10 lg:w-32 lg:h-10 rounded-full shadow-lg border-2 border-[#F1A40E] transition duration-300 hover:bg-yellow-600 hover:shadow-xl transform hover:scale-105"
+                >
+                  contact me
+                </Button>
+              </div>
             </Fade>
           </div>
           <Fade delay={300} triggerOnce>
