@@ -21,7 +21,7 @@ const testimonialData = [
     id: 1,
     name: "Pegasus Jogja",
     company: "Kursus Sepatu Roda 2",
-    imageUrl: "https://example.com/pegasus-jogja-image.jpg",
+    imageUrl: "",
     testimoni:
       "Pelatihan sepatu roda sangat efektif dan instruktur sangat berpengalaman. Kursus ini benar-benar membantu saya meningkatkan keterampilan.",
   },
@@ -29,7 +29,7 @@ const testimonialData = [
     id: 2,
     name: "Cleanee",
     company: "Waste Management & Recycling",
-    imageUrl: "https://example.com/cleanee-image.jpg",
+    imageUrl: "",
     testimoni:
       "Cleanee sangat terbantu dengan solusi yang diberikan, membantu meningkatkan efisiensi operasional dalam pengelolaan limbah.",
   },
@@ -37,7 +37,7 @@ const testimonialData = [
     id: 3,
     name: "SMK Muhammadiyah Gamping",
     company: "Yogyakarta",
-    imageUrl: "https://example.com/smk-muhammadiyah-image.jpg",
+    imageUrl: "",
     testimoni:
       "Layanan dari GMT sangat memuaskan. Sistem yang dikembangkan sesuai dengan kebutuhan kami.",
   },
@@ -45,7 +45,7 @@ const testimonialData = [
     id: 4,
     name: "SMA Al-Ikhsan",
     company: "Bogor",
-    imageUrl: "https://example.com/sma-al-ikhsan-image.jpg",
+    imageUrl: "",
     testimoni:
       "Kami sangat berterima kasih atas layanan yang diberikan. Platform digital sangat membantu dalam proses pembelajaran.",
   },
