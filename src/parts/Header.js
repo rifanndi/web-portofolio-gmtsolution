@@ -112,8 +112,6 @@ export default function Header() {
                 Home
               </Button>
             </li>
-            
-            </li>
             <li className="py-2 bg-white">
               <Button
                 className={`${
